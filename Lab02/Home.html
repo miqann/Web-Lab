@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        body {
+            background-size: cover;
+            background-attachment: fixed;
+            background-image: url(https://media-exp1.licdn.com/dms/image/C511BAQGYZheLJS2Peg/company-background_10000/0/1562311931319?e=2159024400&v=beta&t=1tea7tPdvcRhr7fAkfyFMwPMGMofVmS4F2NIMV_9TQk);
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">School of Computer Science & Engineering</h1>
+    <hr width="30%">
+    <h2 style="text-align: center;">Register Form</h2>
+
+    <form action="Result 2.html" id="usrform">
+        <table>
+            <tr>
+                <td>Full name</td>
+                <td><input type="text" , name="fullname" , size="20"> </td>
+            </tr>
+            <tr>
+                <td>ID</td>
+                <td><input type="text" , name="id" , size="20"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" , name="email" , size="20"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" , name="gender" , id="male"><label for="male">Male</label>
+                    <input type="radio" , name="gender" , id="female"><label for="female">Female</label></td>
+            </tr>
+            <tr>
+                <td>Field of study</td>
+                <td><select name="study" id="study">
+                    <option value="cs">CS</option>
+                    <option value="ds">DS</option>
+                    <option value="ce">CE</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>List of Subjects</td>
+                <td>
+                    <input type="checkbox" name="s1"><label for="s1">Principle of EE1</label></br>
+                    <input type="checkbox" name="s2"><label for="s2">Computer Network</label><br>
+                    <input type="checkbox" name="s3"><label for="s3">OOP</label><br>
+                    <input type="checkbox" name="s1"><label for="s1">Computer Graphics</label><br>
+                    <input type="checkbox" name="s1"><label for="s1">Web Applications</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Comment</td>
+                <td><textarea name="comment" id="usrform" cols="50" rows="4"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit"></td>
+                <td><input type="reset" value="Reset"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

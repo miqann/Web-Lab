@@ -1,0 +1,26 @@
+h1 {
+    font-size: 280%;
+    color: purple;
+}
+
+h2 {
+    font-size: 220%;
+    color: yellow;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 400%;
+    color: tomato;
+    font-style: italic;
+}
+
+p {
+    font-size: 180%;
+    color: rgb(9, 39, 78);
+}
+
+table {
+    color: orange;
+    font-size: 100%;
+}
